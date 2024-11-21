@@ -98,6 +98,8 @@
     \vspace{-2.4mm}
 }
 
+
+
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
 % \renewcommand{\labelitemii}{$\circ$}
 \renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
@@ -122,12 +124,11 @@
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%
 %%%%%% DEFINE ELEMENTS HERE %%%%%%%
-\newcommand{\name}{Dineshkumar R} % Your Name
+\newcommand{\name}{DINESHKUMAR R} % Your Name
 \newcommand{\course}{Master of Computer Application} % Your Program
-\newcommand{\roll}{21280431} % Your Roll No.
+% \newcommand{\roll}{21280431} % Your Roll No.
 \newcommand{\phone}{6382402783} % Your Phone Number
 \newcommand{\emaila}{dineshramar.26@gmail.com} %Email 1
-
 \begin{document}
 \fontfamily{cmr}\selectfont
 %----------HEADING-----------------
@@ -138,9 +139,11 @@
   % {Roll No.: \roll } & \href{mailto:\emaila}{\raisebox{0.0\height}
   {Master of Computer Application} & \href{mailto:\emaila}{\raisebox{0.0\height}
   {\footnotesize \faEnvelope}\ {\emaila}} \\
-  {Srinivasan College of Arts And Science, Perambalur} & \href{https://dineshramar.netlify.app/}{\faUser\ dineshramar}
-    \href{https://www.github.com/DineshRamaraj}{\faGithub\ GitHub} \href{https://www.linkedin.com/in/dineshkumarramar/}{\faLinkedin\ LinkedIn}
+  {Srinivasan College of Arts And Science, Perambalur} & 
+    \href{https://www.dineshramar.netlify.app}{\faUser\ dineshkumar}
+    \href{https://www.github.com/DineshRamaraj}{\faGithub\ GitHub} \href{https://www.linkedin.com/in/dineshkumarramar/}{\faLinkedin\ LinkedIn}\\
 \end{tabularx}
+\vspace{-3mm}
 }
 
 
@@ -149,7 +152,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       { Full Stack Web Development}{}
-      { NXTWAVE CCBP 4.0 Academy}{2022-Present}
+      { NXTWAVE CCBP 4.0 Academy}{2023-Present}
     \resumeSubheading
       { Master of Computer Application}{CGPA: 7.5}
       { Srinivasan College of Arts And Science, Perambalur}{2021-2023}
@@ -157,14 +160,14 @@
       { Bachelor of Computer Application}{CGPA: 7.0}
       { Srinivasan College of Arts And Science, Perambalur}{2018-2021}
   \resumeSubHeadingListEnd
-\vspace{-5.5mm}
+\vspace{-5mm}
 %
 %-----------PROJECTS-----------------
 \section{\textbf{Personal Projects}}
 \resumeSubHeadingListStart
     \resumeProject
       { NxtTrendz (E-Commerce)} %Project Name
-      { Developed a clone of popular e-commerce platforms like Amazon \& Flipkart.} %Project Name, Location Name
+      { Engineered a fully functional clone of leading e-commerce platforms such as Amazon and Flipkart.} %Project Name, Location Name
       {} %Event Dates
 
       \resumeItemListStart
@@ -177,13 +180,13 @@
     
     \resumeProject
       { To-do List App} %Project Name
-      { Created an app for users to log in and view .} %Project Name, Location Name
+      { Developed an application that allows users to log in, track their to-do list progress, and view the completion status of tasks.} %Project Name, Location Name
       {} %Event Dates
 
       \resumeItemListStart
         \item {Created a feature-rich To-Do app with CRUD operations, responsive design, and secure APIs.}
-        \item {Integrated MongoDB for efficient data storage and retrieval.}
-        \item{Implemented Node.js and Express.js for backend development and API creation.}
+        \item {Championed the adoption of MongoDB, enabling the processing of over 2M records daily, which supported rapid scalability and improved overall application performance for customer-facing services.}
+        % \item{Developed a robust backend infrastructure using Node.js and Express.js, streamlining API creation for the To-Do app, resulting in enhanced user authentication speed by 30\% across all platforms.}
         \item {Technologies Used: HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB}
     \resumeItemListEnd
     \vspace{-2mm}
@@ -196,9 +199,9 @@
 \section{\textbf{Experience}}
   \resumeSubHeadingListStart
     \resumeSubheading
-      { FrontEnd Developer (React.js)}{}
-      { Cloud Garage (Offline)}{NOV 2022 - APR 2023}
-      \vspace{-2.0mm}
+      { FrontEnd Developer Intern (React.js)}{}
+      { Cloud Garage LLP}{NOV 2022 - APR 2023}
+      \vspace{0mm}
       \resumeItemListStart
         \item {Acquired foundational design and development skills, contributing to a team project that improved the user interface for a web application by 15\%.}
         \item {Gained hands-on experience with Figma and Continuous Integration, enhancing project design collaboration efficiency by 20\%.}
@@ -207,7 +210,7 @@
     \vspace{-3.0mm}
       
   \resumeSubHeadingListEnd
-\vspace{-5.5mm}
+\vspace{-4mm}
 
 
 
@@ -235,20 +238,19 @@
 
 
 %-----------Positions of Responsibility-----------------
-\section{\textbf{Positions of Responsibility}}
-\vspace{-0.4mm}
-\resumeSubHeadingListStart
-\resumePOR{ IoT Developer: } % Position
-    {IIT Kharagpur (Online)} %Club,Event
-    {OCT 2021 - MARCH 2022} %Tenure Period \\
-    \resumeItemListStart
-    \item {Completed a comprehensive IoT course, mastering Arduino and Jack-Fruit applications.}
-    \item {Achieved the top position among 50 participants, leading to a 10\% increase in course enrollment due to demonstrated excellence.}
-    \resumeItemListEnd
-
-\resumeSubHeadingListEnd
-\vspace{-9mm}
-
+\section{\textbf{Certifications}}
+\vspace{0.4mm}
+\begin{itemize}[leftmargin=0.15in]
+    \setlength\itemsep{-0.5em}
+    \item \href{https://certificates.ccbp.in/academy/static-website?id=CMLOLLZXVV}{Build Your Own Static Website (HTML \& CSS)}
+    \item \href{https://certificates.ccbp.in/academy/build-your-own-responsive-website?id=XPMDVVZYLL}{Build Your Own Responsive Website (Bootstrap \& flexbox)}
+    \item \href{https://certificates.ccbp.in/academy/dynamic-web-application?id=KERDANYNWA}{Build Your Own Dynamic Web Application (JavaScript)}
+    \item \href{https://certificates.ccbp.in/academy/react-js?id=BDLZAIRDPO}{REACT JS}
+    \item \href{https://certificates.ccbp.in/academy/node-js?id=WYKWTRMSFH}{Node.js}
+    \item \href{https://certificates.ccbp.in/academy/introduction-to-databases?id=MBHXLLPTDH}{Introduction to Databases (SQL)}
+    \item \href{https://certificates.ccbp.in/academy/programming-foundations-with-python?id=RJAZNNFAJK}{Programming Foundations in Python}
+\end{itemize}
+\vspace{-5mm}
 
 
 
