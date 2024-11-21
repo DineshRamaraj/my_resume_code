@@ -135,9 +135,11 @@
 {
 \begin{tabularx}{\linewidth}{L r} \\
   \textbf{\Large \name} & {\raisebox{0.0\height}{\footnotesize \faPhone}\ +91-\phone}\\
-  {Roll No.: \roll } & \href{mailto:\emaila}{\raisebox{0.0\height}{\footnotesize \faEnvelope}\ {\emaila}} \\
-  Master of Computer Application & \href{https://github.com/DineshRamaraj}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {GitHub Profile}} \\  
-  {Srinivasan College of Arts And Science, Perambalur} & \href{www.linkedin.com/in/dineshramar/}{\raisebox{0.0\height}{\footnotesize \faLinkedin}\ {LinkedIn Profile}}
+  % {Roll No.: \roll } & \href{mailto:\emaila}{\raisebox{0.0\height}
+  {Master of Computer Application} & \href{mailto:\emaila}{\raisebox{0.0\height}
+  {\footnotesize \faEnvelope}\ {\emaila}} \\
+  {Srinivasan College of Arts And Science, Perambalur} & \href{https://dineshramar.netlify.app/}{\faUser\ dineshramar}
+    \href{https://www.github.com/DineshRamaraj}{\faGithub\ GitHub} \href{https://www.linkedin.com/in/dineshkumarramar/}{\faLinkedin\ LinkedIn}
 \end{tabularx}
 }
 
@@ -147,13 +149,13 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       { Full Stack Web Development}{}
-      { NXTWAVE CCBP 4.0 Academy-Genius}{2022-Present}
+      { NXTWAVE CCBP 4.0 Academy}{2022-Present}
     \resumeSubheading
       { Master of Computer Application}{CGPA: 7.5}
       { Srinivasan College of Arts And Science, Perambalur}{2021-2023}
-    % \resumeSubheading
-    %   { Bachelor of Computer Application}{CGPA: 7.0}
-    %   { Srinivasan College of Arts And Science, Perambalur}{2018-2021}
+    \resumeSubheading
+      { Bachelor of Computer Application}{CGPA: 7.0}
+      { Srinivasan College of Arts And Science, Perambalur}{2018-2021}
   \resumeSubHeadingListEnd
 \vspace{-5.5mm}
 %
@@ -161,9 +163,8 @@
 \section{\textbf{Personal Projects}}
 \resumeSubHeadingListStart
     \resumeProject
-      { Nxt Trendz (E-Commerce) - Full-stack Application} %Project Name
-      { Developed a clone of popular e-commerce platforms like Amazon \& Flipkart.
-} %Project Name, Location Name
+      { NxtTrendz (E-Commerce)} %Project Name
+      { Developed a clone of popular e-commerce platforms like Amazon \& Flipkart.} %Project Name, Location Name
       {} %Event Dates
 
       \resumeItemListStart
@@ -175,20 +176,20 @@
     \vspace{-2mm}
     
     \resumeProject
-      { Jobby App - Full-stack Application} %Project Name
-      { Created an app for users to log in and view job listings with search functionality.} %Project Name, Location Name
+      { To-do List App} %Project Name
+      { Created an app for users to log in and view .} %Project Name, Location Name
       {} %Event Dates
 
       \resumeItemListStart
-        \item {Designed and developed key pages (Login, Home, Jobs, Job Details) using React components, state management, and event handlers.}
-        \item {Delivered a user-friendly interface, receiving positive feedback and improving job search efficiency by 20\%.}
-        \item{Integrated real-time job data, increasing the job listing update speed by 35\%.}
-        \item {Technologies Used: JavaScript, React.js, Bootstrap, HTML, CSS.}
+        \item {Created a feature-rich To-Do app with CRUD operations, responsive design, and secure APIs.}
+        \item {Integrated MongoDB for efficient data storage and retrieval.}
+        \item{Implemented Node.js and Express.js for backend development and API creation.}
+        \item {Technologies Used: HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB}
     \resumeItemListEnd
     \vspace{-2mm}
       
   \resumeSubHeadingListEnd
-\vspace{-8.5mm}
+\vspace{-5.5mm}
 
 
 %-----------EXPERIENCE-----------------
@@ -196,7 +197,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       { FrontEnd Developer (React.js)}{}
-      { Cloud Garage (Offline)}{Dec 2022 - Feb 2023}
+      { Cloud Garage (Offline)}{NOV 2022 - APR 2023}
       \vspace{-2.0mm}
       \resumeItemListStart
         \item {Acquired foundational design and development skills, contributing to a team project that improved the user interface for a web application by 15\%.}
@@ -239,21 +240,21 @@
 \resumeSubHeadingListStart
 \resumePOR{ IoT Developer: } % Position
     {IIT Kharagpur (Online)} %Club,Event
-    {OCT 2021 - MARCH 2021} %Tenure Period \\
+    {OCT 2021 - MARCH 2022} %Tenure Period \\
     \resumeItemListStart
     \item {Completed a comprehensive IoT course, mastering Arduino and Jack-Fruit applications.}
     \item {Achieved the top position among 50 participants, leading to a 10\% increase in course enrollment due to demonstrated excellence.}
     \resumeItemListEnd
 
 \resumeSubHeadingListEnd
-\vspace{-5mm}
+\vspace{-9mm}
 
 
 
 
 % %-----------Achievements-----------------
 \section{\textbf{Achievements}}
-\vspace{-0.4mm}
+\vspace{-1mm}
 \resumeSubHeadingListStart
 \resumePOR{ Rank 1 in Teqathon } % Award
 {} 
@@ -275,7 +276,7 @@
     \resumeItemListEnd
 
 \resumeSubHeadingListEnd
-\vspace{-5mm}
+\vspace{-1mm}
 
 
 
