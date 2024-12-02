@@ -125,7 +125,7 @@
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%
 %%%%%% DEFINE ELEMENTS HERE %%%%%%%
 \newcommand{\name}{DINESHKUMAR R} % Your Name
-\newcommand{\course}{Master of Computer Application} % Your Program
+\newcommand{\course}{Master of Computer Application(MCA)} % Your Program
 % \newcommand{\roll}{21280431} % Your Roll No.
 \newcommand{\phone}{6382402783} % Your Phone Number
 \newcommand{\emaila}{dineshramar.26@gmail.com} %Email 1
@@ -137,10 +137,10 @@
 \begin{tabularx}{\linewidth}{L r} \\
   \textbf{\Large \name} & {\raisebox{0.0\height}{\footnotesize \faPhone}\ +91-\phone}\\
   % {Roll No.: \roll } & \href{mailto:\emaila}{\raisebox{0.0\height}
-  {Master of Computer Application} & \href{mailto:\emaila}{\raisebox{0.0\height}
+  {Master of Computer Application(MCA)} & \href{mailto:\emaila}{\raisebox{0.0\height}
   {\footnotesize \faEnvelope}\ {\emaila}} \\
   {Srinivasan College of Arts And Science, Perambalur} & 
-    \href{https://www.dineshramar.netlify.app}{\faUser\ dineshkumar}
+    \href{https://dineshramar.netlify.app}{\faUser\ dineshkumar}
     \href{https://www.github.com/DineshRamaraj}{\faGithub\ GitHub} \href{https://www.linkedin.com/in/dineshkumarramar/}{\faLinkedin\ LinkedIn}\\
 \end{tabularx}
 \vspace{-3mm}
@@ -154,10 +154,10 @@
       { Full Stack Web Development}{}
       { NXTWAVE CCBP 4.0 Academy}{2023-Present}
     \resumeSubheading
-      { Master of Computer Application}{CGPA: 7.5}
+      { Master of Computer Application (MCA)}{CGPA: 7.5}
       { Srinivasan College of Arts And Science, Perambalur}{2021-2023}
     \resumeSubheading
-      { Bachelor of Computer Application}{CGPA: 7.0}
+      { Bachelor of Computer Application (BCA)}{CGPA: 7.0}
       { Srinivasan College of Arts And Science, Perambalur}{2018-2021}
   \resumeSubHeadingListEnd
 \vspace{-5mm}
@@ -167,7 +167,7 @@
 \resumeSubHeadingListStart
     \resumeProject
       { NxtTrendz (E-Commerce)} %Project Name
-      { Engineered a fully functional clone of leading e-commerce platforms such as Amazon and Flipkart.} %Project Name, Location Name
+        { Designed a fully functional clone of leading e-Commerce platforms such as Amazon and Flipkart.} %Project Name, Location Name
       {} %Event Dates
 
       \resumeItemListStart
@@ -180,14 +180,14 @@
     
     \resumeProject
       { To-do List App} %Project Name
-      { Developed an application that allows users to log in, track their to-do list progress, and view the completion status of tasks.} %Project Name, Location Name
+       { Developed an application that allows users to log in, track their progress on their to-do list, and view the completion status of tasks.} %Project Name, Location Name
       {} %Event Dates
 
       \resumeItemListStart
         \item {Created a feature-rich To-Do app with CRUD operations, responsive design, and secure APIs.}
         \item {Championed the adoption of MongoDB, enabling the processing of over 2M records daily, which supported rapid scalability and improved overall application performance for customer-facing services.}
         % \item{Developed a robust backend infrastructure using Node.js and Express.js, streamlining API creation for the To-Do app, resulting in enhanced user authentication speed by 30\% across all platforms.}
-        \item {Technologies Used: HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB}
+        \item { Technologies used: HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB}
     \resumeItemListEnd
     \vspace{-2mm}
       
@@ -222,11 +222,11 @@
 \section{\textbf{Technical Skills and Interests}}
  \begin{itemize}[leftmargin=0.05in, label={}]
     \small{\item{
-     \textbf{Languages}{: C/C++, Python, JavaScript, HTML, CSS, Bootstrap } \\
+     \textbf{Languages}{: C/C++, Java, Python, JavaScript, HTML, CSS, Bootstrap } \\
      \textbf{Frameworks}{: React.js } \\
      \textbf{Libraries }{: C++ STL, Python Libraries, React.js }\\ 
      \textbf{Tools}{: Nodejs, VS Code, Git, GitHub } \\ 
-     \textbf{Cloud/Databases}{: MongoDB, Firebase, MySQL, EC2, Route 53, RDS, Lambda  } \\  
+     \textbf{Cloud/Databases}{: MongoDB, MySQL, EC2, Route 53, RDS, Lambda  } \\  
      
      \textbf{Relevent Coursework}{: Data Structures \& Algorithms, Operating Systems, Object Oriented Programming, Database Management System, Software Engineering. } \\ 
     %  \textbf{Areas of Interest}{: Web Design and Development, Cloud Security.} \\
@@ -264,7 +264,7 @@
     \resumeItemListStart
     \item{Conducted by T4Teq Software Solutions | 2021} % Event
     
-    \item{Led a team to victory in a competitive hackathon, showcasing skills in rapid development and problem-solving.} % Event
+    \item { Led a team to victory in a competitive hackathon, showcasing skills in rapid development and problem solving. } % Event
     \resumeItemListEnd
     
     {} %Event Year
@@ -273,7 +273,7 @@
 {} 
 {} %Period \\
 \resumeItemListStart
-    \item{Maintained a streak of over 50+ days of continuous programming on LeetCode, improving problem-solving skills and algorithmic thinking.} % Event
+    \item{ Maintained a streak of over 50+ days of continuous programming on LeetCode, improving problem-solving skills and algorithmic thinking.} % Event
     {} %Event Year
     \resumeItemListEnd
 
