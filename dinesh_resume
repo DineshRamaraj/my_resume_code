@@ -1,0 +1,290 @@
+    %-------------------------
+% Resume in Latex
+% Author
+% License : MIT
+%------------------------
+
+%---- Required Packages and Functions ----
+
+\documentclass[a4paper,11pt]{article}
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage[T1]{fontenc}
+\setlength{\multicolsep}{0pt} 
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.4cm, top=0.8cm, right=1.2cm, bottom=1cm}
+% Adjust margins
+%\addtolength{\oddsidemargin}{-0.5in}
+%\addtolength{\evensidemargin}{-0.5in}
+%\addtolength{\textwidth}{1in}
+\usepackage[most]{tcolorbox}
+\tcbset{
+	frame code={}
+	center title,
+	left=0pt,
+	right=0pt,
+	top=0pt,
+	bottom=0pt,
+	colback=gray!20,
+	colframe=white,
+	width=\dimexpr\textwidth\relax,
+	enlarge left by=-2mm,
+	boxsep=4pt,
+	arc=0pt,outer arc=0pt,
+}
+
+\urlstyle{same}
+
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}
+  }
+}
+
+\newcommand{\resumePOR}[3]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1}\hspace{0.3mm}#2 & \textit{\small{#3}} 
+    \end{tabular*}
+    \vspace{-2mm}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#3}} \\
+        \footnotesize{\textit{#2}} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+% \renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=0mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[leftmargin=3ex, rightmargin=2ex, noitemsep,labelsep=1.2mm,itemsep=0mm]\small}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\end{justify}\vspace{-2mm}}
+\newcommand{\cvsection}[1]{%
+\vspace{2mm}
+\begin{tcolorbox}
+    \textbf{\large #1}
+\end{tcolorbox}
+    \vspace{-4mm}
+}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+\newcolumntype{C}{>{\centering\arraybackslash}X}%
+%---- End of Packages and Functions ------
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%
+%%%%%% DEFINE ELEMENTS HERE %%%%%%%
+\newcommand{\name}{DINESHKUMAR R} % Your Name
+\newcommand{\course}{Master of Computer Application(MCA)} % Your Program
+% \newcommand{\roll}{21280431} % Your Roll No.
+\newcommand{\phone}{6382402783} % Your Phone Number
+\newcommand{\emaila}{dineshramar.26@gmail.com} %Email 1
+\begin{document}
+\fontfamily{cmr}\selectfont
+%----------HEADING-----------------
+
+{
+\begin{tabularx}{\linewidth}{L r} \\
+  \textbf{\Large \name} & {\raisebox{0.0\height}{\footnotesize \faPhone}\ +91-\phone}\\
+  % {Roll No.: \roll } & \href{mailto:\emaila}{\raisebox{0.0\height}
+  {Master of Computer Application(MCA)} & \href{mailto:\emaila}{\raisebox{0.0\height}
+  {\footnotesize \faEnvelope}\ {\emaila}} \\
+  {Srinivasan College of Arts And Science, Perambalur} & 
+    \href{https://dineshramar.netlify.app}{\faUser\ dineshkumar}
+    \href{https://www.github.com/DineshRamaraj}{\faGithub\ GitHub} \href{https://www.linkedin.com/in/dineshkumarramar/}{\faLinkedin\ LinkedIn}\\
+\end{tabularx}
+\vspace{-3mm}
+}
+
+
+%-----------EDUCATION-----------
+\section{\textbf{Education}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      { Full Stack Web Development}{}
+      { NXTWAVE CCBP 4.0 Academy}{ October 2023 - Present }
+      % { (CCBP Academy is an Industry Ready Certification Program focused on Full-Stack Web Developement that provides training through an immerse hands-on and reverse-engineered curriculum) }
+    \resumeSubheading
+      { Master of Computer Application (MCA)}{CGPA: 7.5/10}
+      { Srinivasan College of Arts And Science, Perambalur}{June 2021 - April 2023}
+    \resumeSubheading
+      { Bachelor of Computer Application (BCA)}{CGPA: 7.0/10}
+      { Srinivasan College of Arts And Science, Perambalur}{June 2018 - March 2021}
+  \resumeSubHeadingListEnd
+\vspace{-5mm}
+%
+
+%-----------EXPERIENCE-----------------
+\section{\textbf{Experience}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      { Front-End Developer Intern (React.js)}{}
+      { Cloud Garage LLP}{October 2022 - June 2023}
+      \vspace{0mm}
+      \resumeItemListStart
+        \item {Acquired foundational design and development skills, contributing to a team project that improved the user interface for a web application by 15\%.}
+        \item {Gained hands-on experience with Figma and Continuous Integration, enhancing project design collaboration efficiency by 20\%.}
+    \resumeItemListEnd
+    
+    \vspace{-3.0mm}
+      
+  \resumeSubHeadingListEnd
+\vspace{-4mm}
+
+
+
+
+%-----------PROJECTS-----------------
+\section{\textbf{Personal Projects}}
+\resumeSubHeadingListStart
+    \resumeProject
+      { NxtTrendz (E-Commerce)} %Project Name
+        { Designed a fully functional clone of leading e-Commerce platforms such as Amazon and Flipkart.} %Project Name, Location Name
+      {} %Event Dates
+
+      \resumeItemListStart
+        \item {Implemented dynamic routing for pages (Login, Products, Product Details) using React Router, increasing page interaction rates by 30\%.}
+        \item {Enhanced user authentication and authorization through login POST HTTP API calls, resulting in a 40\% reduction in unauthorized access.}
+        \item{Improved product API calls by adding filters via query parameters, boosting search efficiency by 25\%.}
+        \item {Technologies Used: HTML, CSS, JavaScript, React.js.}
+    \resumeItemListEnd
+    \vspace{-2mm}
+    
+    \resumeProject
+      { To-do List App} %Project Name
+       { Developed an application that allows users to log in, track their progress on their to-do list, and view the completion status of tasks.} %Project Name, Location Name
+      {} %Event Dates
+
+      \resumeItemListStart
+        \item {Created a feature-rich To-Do app with CRUD operations, responsive design, and secure APIs.}
+        \item {Championed the adoption of MongoDB, enabling the processing of over 2M records daily, which supported rapid scalability and improved overall application performance for customer-facing services.}
+        % \item{Developed a robust backend infrastructure using Node.js and Express.js, streamlining API creation for the To-Do app, resulting in enhanced user authentication speed by 30\% across all platforms.}
+        \item { Technologies used: HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB}
+    \resumeItemListEnd
+    \vspace{-2mm}
+      
+  \resumeSubHeadingListEnd
+\vspace{-5.5mm}
+
+
+
+
+
+
+%-----------Positions of Responsibility-----------------
+\section{\textbf{Certifications}}
+\vspace{0.4mm}
+\begin{itemize}[leftmargin=0.15in]
+    \setlength\itemsep{-0.5em}
+    \item \href{https://certificates.ccbp.in/academy/static-website?id=CMLOLLZXVV}{Build Your Own Static Website (HTML \& CSS)}
+    % \item \href{https://certificates.ccbp.in/academy/build-your-own-responsive-website?id=XPMDVVZYLL}{Build Your Own Responsive Website (Bootstrap \& flexbox)}
+    \item \href{https://certificates.ccbp.in/academy/dynamic-web-application?id=KERDANYNWA}{Build Your Own Dynamic Web Application (JavaScript)}
+    \item \href{https://certificates.ccbp.in/academy/introduction-to-databases?id=MBHXLLPTDH}{Introduction to Databases (SQL)}
+    \item \href{https://certificates.ccbp.in/academy/react-js?id=BDLZAIRDPO}{REACT JS}
+    \item \href{https://certificates.ccbp.in/academy/node-js?id=WYKWTRMSFH}{NODE JS}
+    \item \href{https://certificates.ccbp.in/academy/programming-foundations-with-python?id=RJAZNNFAJK}{Programming Foundations in Python}
+\end{itemize}
+\vspace{-5mm}
+
+
+
+
+%-----------Technical skills-----------------
+\section{\textbf{Technical Skills and Interests}}
+ \begin{itemize}[leftmargin=0.05in, label={}]
+    \small{\item{
+     \textbf{Front-End}{: HTML, CSS, Bootstrap, TailwindCss, JavaScript, React.js} \\
+     \textbf{Back-End}{: Node.js, Express.js} \\
+     \textbf{Databases}{: MySQL, sqlite, MongoDB} \\
+     \textbf{Languages}{: C/C++, Java, Python, JavaScript} \\
+     % \textbf{Frameworks}{: React.js } \\
+     % \textbf{Libraries }{: C++ STL, Python Libraries, React.js }\\ 
+     \textbf{Tools}{: VS Code, Git, GitHub } \\ 
+     % \textbf{Cloud/Databases}{: EC2, Route 53, RDS, Lambda  } \\  
+     \textbf{Relevant Coursework}{: Data Structures \& Algorithms (DSA), Operating Systems (OS), Object-Oriented Programming (OOP's), Database Management System (DBMS). } \\ 
+    %  \textbf{Areas of Interest}{: Web Design and Development, Cloud Security.} \\
+    %  \textbf{Soft Skills}{: Problem Solving, Self-learning, Presentation, Adaptability} \\
+    }}%
+ \end{itemize}
+ \vspace{-10pt}
+
+
+% %-----------Achievements-----------------
+\section{\textbf{Achievements}}
+\vspace{-1mm}
+\resumeSubHeadingListStart
+\resumePOR{ 1st Rank in Teqathon } % Award
+{} 
+{} %Period \\
+    \resumeItemListStart
+    \item{Conducted by T4Teq Software Solutions | 2021} % Event
+    
+    \item { Led a team to victory in a competitive hackathon, showcasing skills in rapid development and problem solving. } % Event
+    \resumeItemListEnd
+    
+    {} %Event Year
+    
+\resumePOR{ Consistent Programming Streak } % Award
+{} 
+{} %Period \\
+\resumeItemListStart
+    \item{ Maintained a streak of over 50+days of continuous programming on LeetCode, improving problem-solving skills and algorithmic thinking.} % Event
+    {} %Event Year
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-5mm}
+
+
+%-------------------------------------------
+\end{document}
