@@ -162,6 +162,27 @@
   \resumeSubHeadingListEnd
 \vspace{-5mm}
 %
+
+%-----------EXPERIENCE-----------------
+\section{\textbf{Experience}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      { FrontEnd Developer Intern (React.js)}{}
+      { Cloud Garage LLP}{NOV 2022 - APR 2023}
+      \vspace{0mm}
+      \resumeItemListStart
+        \item {Acquired foundational design and development skills, contributing to a team project that improved the user interface for a web application by 15\%.}
+        \item {Gained hands-on experience with Figma and Continuous Integration, enhancing project design collaboration efficiency by 20\%.}
+    \resumeItemListEnd
+    
+    \vspace{-3.0mm}
+      
+  \resumeSubHeadingListEnd
+\vspace{-4mm}
+
+
+
+
 %-----------PROJECTS-----------------
 \section{\textbf{Personal Projects}}
 \resumeSubHeadingListStart
@@ -195,45 +216,7 @@
 \vspace{-5.5mm}
 
 
-%-----------EXPERIENCE-----------------
-\section{\textbf{Experience}}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      { FrontEnd Developer Intern (React.js)}{}
-      { Cloud Garage LLP}{NOV 2022 - APR 2023}
-      \vspace{0mm}
-      \resumeItemListStart
-        \item {Acquired foundational design and development skills, contributing to a team project that improved the user interface for a web application by 15\%.}
-        \item {Gained hands-on experience with Figma and Continuous Integration, enhancing project design collaboration efficiency by 20\%.}
-    \resumeItemListEnd
-    
-    \vspace{-3.0mm}
-      
-  \resumeSubHeadingListEnd
-\vspace{-4mm}
 
-
-
-
-
-
-
-%-----------Technical skills-----------------
-\section{\textbf{Technical Skills and Interests}}
- \begin{itemize}[leftmargin=0.05in, label={}]
-    \small{\item{
-     \textbf{Languages}{: C/C++, Java, Python, JavaScript, HTML, CSS, Bootstrap } \\
-     \textbf{Frameworks}{: React.js } \\
-     \textbf{Libraries }{: C++ STL, Python Libraries, React.js }\\ 
-     \textbf{Tools}{: Nodejs, VS Code, Git, GitHub } \\ 
-     \textbf{Cloud/Databases}{: MongoDB, MySQL, EC2, Route 53, RDS, Lambda  } \\  
-     
-     \textbf{Relevent Coursework}{: Data Structures \& Algorithms, Operating Systems, Object Oriented Programming, Database Management System, Software Engineering. } \\ 
-    %  \textbf{Areas of Interest}{: Web Design and Development, Cloud Security.} \\
-    %  \textbf{Soft Skills}{: Problem Solving, Self-learning, Presentation, Adaptability} \\
-    }}%
- \end{itemize}
- \vspace{-16pt}
 
 
 
@@ -278,7 +261,25 @@
     \resumeItemListEnd
 
 \resumeSubHeadingListEnd
-\vspace{-1mm}
+\vspace{-5mm}
+
+
+%-----------Technical skills-----------------
+\section{\textbf{Technical Skills and Interests}}
+ \begin{itemize}[leftmargin=0.05in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C/C++, Java, Python, JavaScript, HTML, CSS, Bootstrap } \\
+     \textbf{Frameworks}{: React.js } \\
+     \textbf{Libraries }{: C++ STL, Python Libraries, React.js }\\ 
+     \textbf{Tools}{: Nodejs, VS Code, Git, GitHub } \\ 
+     \textbf{Cloud/Databases}{: MongoDB, MySQL, EC2, Route 53, RDS, Lambda  } \\  
+     
+     \textbf{Relevent Coursework}{: Data Structures \& Algorithms, Operating Systems, Object Oriented Programming, Database Management System, Software Engineering. } \\ 
+    %  \textbf{Areas of Interest}{: Web Design and Development, Cloud Security.} \\
+    %  \textbf{Soft Skills}{: Problem Solving, Self-learning, Presentation, Adaptability} \\
+    }}%
+ \end{itemize}
+ \vspace{-10pt}
 
 
 
