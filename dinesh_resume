@@ -140,7 +140,7 @@
   {Master of Computer Application(MCA)} & \href{mailto:\emaila}{\raisebox{0.0\height}
   {\footnotesize \faEnvelope}\ {\emaila}} \\
   {Srinivasan College of Arts And Science, Perambalur} & 
-    \href{https://dineshramar.netlify.app}{\faUser\ dineshkumar}
+    \href{https://dineshramar.netlify.app}{\faUser\ Portfolio}
     \href{https://www.github.com/DineshRamaraj}{\faGithub\ GitHub} \href{https://www.linkedin.com/in/dineshkumarramar/}{\faLinkedin\ LinkedIn}\\
 \end{tabularx}
 \vspace{-3mm}
@@ -168,7 +168,7 @@
 \section{\textbf{Experience}}
   \resumeSubHeadingListStart
     \resumeSubheading
-      { Front-End Developer Intern (React.js)}{}
+      { Front-End Developer Intern (React JS)}{}
       { Cloud Garage LLP}{October 2022 - June 2023}
       \vspace{0mm}
       \resumeItemListStart
@@ -190,7 +190,7 @@
     \resumeProject
       { NxtTrendz (E-Commerce)} %Project Name
         { Designed a fully functional clone of leading e-Commerce platforms such as Amazon and Flipkart.} %Project Name, Location Name
-      {} %Event Dates
+      {\href{https://dinnxttrendz.ccbp.tech/}{\faLink Project Link}} %Event Dates
 
       \resumeItemListStart
         \item {Implemented dynamic routing for pages (Login, Products, Product Details) using React Router, increasing page interaction rates by 30\%.}
@@ -202,8 +202,8 @@
     
     \resumeProject
       { To-do List App} %Project Name
-       { Developed an application that allows users to log in, track their progress on their to-do list, and view the completion status of tasks.} %Project Name, Location Name
-      {} %Event Dates
+       { Developed an application that allows users to log in, track their progress on their to-do list, and status of tasks.} %Project Name, Location Name
+      {\href{https://dintodoapp-sepia.vercel.app}{\faLink Project Link}} %Event Dates
 
       \resumeItemListStart
         \item {Created a feature-rich To-Do app with CRUD operations, responsive design, and secure APIs.}
